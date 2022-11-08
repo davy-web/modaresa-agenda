@@ -2,11 +2,11 @@ import React from 'react';
 import './FormButton.css';
 
 type FormButtonProps = {
-  labelle: string
+  label: string
 }
 
-export default function FormButton({ labelle }: FormButtonProps) {
+export default function FormButton({ label }: FormButtonProps) {
   return (
-    <button role="button" className="form_button">{labelle}</button>
+    <button role="button" className="form_button">{label}</button>
   );
 }

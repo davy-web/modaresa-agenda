@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import '../styles/bootstrap-grid.min.css';
 import './CalendarsNavbar.css';
 
 export default function CalendarsNavbar() {
