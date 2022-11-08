@@ -1,0 +1,14 @@
+.form_button {
+    cursor: pointer;
+    background-color: inherit;
+    color: var(--color-1);
+    border: 1px solid var(--color-1);
+    padding: 8px 24px;
+    border-radius: 32px;
+    font-weight: 500;
+}
+
+.form_button:hover {
+    background-color: var(--color-1);
+    color: white;
+}

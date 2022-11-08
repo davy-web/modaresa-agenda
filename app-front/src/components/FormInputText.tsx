@@ -1,7 +1,7 @@
 export default function FormInputText() {
-    return (
-      <>
-        <h1>FormInputText</h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <h1>FormInputText</h1>
+    </>
+  );
+}

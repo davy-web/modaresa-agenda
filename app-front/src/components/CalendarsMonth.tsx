@@ -1,7 +1,7 @@
 export default function CalendarsMonth() {
-    return (
-      <>
-        <h1>CalendarsMonth</h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <h1>CalendarsMonth</h1>
+    </>
+  );
+}
