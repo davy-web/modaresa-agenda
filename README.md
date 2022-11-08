@@ -4,6 +4,7 @@
 
 ### Command création
 - npx create-react-app app-front --template=typescript
+- npm install --save react-router-dom
 
 ### Developpement
 - cd app-front
