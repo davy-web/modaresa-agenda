@@ -18,10 +18,14 @@
 }
 
 .calendar_time, .calendar_info {
-    padding: 12px;
+    padding: 8px 12px;
     border-radius: 8px;
 }
 
 .calendar_info:hover {
     background-color: var(--color-4);
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
 }
