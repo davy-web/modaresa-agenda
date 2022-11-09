@@ -21,9 +21,11 @@ export default function CalendarsDay({ date }: CalendarsDayProps) {
     <>
       <table className="container calendar_container">
         <thead>
-          <th className="calendar_title col" colSpan={2}>
-            {date}
-          </th>
+          <tr>
+            <th className="calendar_title col" colSpan={2}>
+              {date}
+            </th>
+          </tr>
         </thead>
         <tbody>
           {calendarTable}
