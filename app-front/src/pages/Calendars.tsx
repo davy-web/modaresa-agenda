@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/bootstrap-grid.min.css';
-import FormButton from "../components/FormButton";
-import FormInputText from "../components/FormInputText";
+import CalendarsDay from "../components/CalendarsDay";
+import CalendarsForm from "../components/CalendarsForm";
 
 export default function Calendars() {
   return (
     <>
-      <h1>Calendars</h1>
-      <FormInputText label="Title" name="title" type="text"/><br />
-      <FormButton label="Valider" />
+      <h1 className="text_center">Calendars</h1>
+      <CalendarsDay date="Monday 20th, Janurary" />
+      <CalendarsForm title="Ajouter" />
     </>
   );
 }

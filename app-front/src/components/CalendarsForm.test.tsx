@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import CalendarsForm from './CalendarsForm';
 
 test('Renders CalendarsForm', () => {
-  render(<CalendarsForm />);
-  const linkElement = screen.getByText(/CalendarsForm/i);
+  render(<CalendarsForm title="Ajouter" />);
+  const linkElement = screen.getByText(/Ajouter/i);
   expect(linkElement).toBeInTheDocument();
 });

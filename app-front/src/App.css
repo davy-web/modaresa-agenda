@@ -1,3 +1,10 @@
+:root {
+  --color-1: #4682B4;
+  --color-2: #74a1c7;
+  --color-3: #a3c1da;
+  --color-4: #d1e0ec;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -13,6 +20,10 @@ a {
   color: #222222;
 }
 
-:root {
-  --color-1: #4682B4;
+.text_center {
+    text-align: center;
+}
+
+h2, h3 {
+  margin: 0;
 }
